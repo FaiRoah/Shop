@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 #include "Product.h"
 #include "Purchase.h"
 #include "Check.h"
@@ -25,10 +24,6 @@ int main() {
     products.push_back(Product("Salad", 49.99));
     products.push_back(Product("Avocado", 289.99));
     vector<Purchase*> check;    //check that is containg buyed products
-    /*int countOf;
-    string name;
-    double price = 0;
-    Product a(name, price);*/
     while (1) {
         menu();     //show the menu
         cout << endl << "Enter a number from the menu: ";
